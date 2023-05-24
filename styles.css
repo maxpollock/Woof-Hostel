@@ -1,0 +1,327 @@
+html {
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -webkit-background-size: 100% auto;
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Nav */
+.nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 1rem;
+    border-bottom: 1px orange solid;
+    align-items: center;
+}
+
+.title-logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 6.5rem;
+    margin-left: 0.5rem;
+    float: left;
+    padding-top: 0.5rem;
+}
+
+#logo-title {
+    text-align: center;
+    padding-left: 0.8rem;
+    padding-top: 0.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.7rem;
+}
+
+ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    margin-right: 2.5rem;
+    font-size: 1.8rem;
+    font-family: 'Mulish', sans-serif;
+    color: black;
+}
+
+.nav-bar a:hover {
+    color: orange;
+    font-weight: 800;
+}
+
+button {
+    background-color: orange;
+    border: white solid 1px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 14px 40px;
+    margin-right: 0.5rem;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border: 1px orange solid;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition: .3s;
+}
+
+/* Landing Page */
+.img-title {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    height: 40rem;
+}
+
+#dog-title-img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 0% 0% 150% 150%/0% 0% 40% 40%;
+}
+    
+.quote {
+    position: absolute;
+    top: 30%;
+    left: 60px;
+    width: 40%;
+    font-size: 18px;
+    text-align: left;
+    z-index: 999;
+}
+
+#title-a {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.card-title {    
+    margin: auto;
+    text-align: center;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+    width: 50rem;
+    
+}
+
+.quote h2 {
+    padding: 1.5rem;
+    font-size: 2.5rem;
+    background-color: rgb(255, 168, 6);
+    border-radius: 2rem;
+    font-family: 'Mulish', sans-serif;
+    line-height: 3rem;
+}   
+
+h3 {
+    font-size: 2.5rem;
+    font-family: 'Mulish', sans-serif;
+    line-height: 3rem;
+    width: 100%;
+}
+
+img {
+    display: block;
+}
+
+span {
+    font-size: 1.5rem;
+}
+
+
+/* Dogs */
+.card-title {
+    margin-top: 3rem;
+    display: flex;
+    width: 60%;
+    align-items: center;
+}
+
+#paw {
+    max-width: 5%;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.picture-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    border-radius: 8px;
+    margin: 10px;
+    display: block;
+    align-items: center;
+}
+
+.picture-container p {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+}
+
+.picture-container img {
+    border-radius: 6px;
+}
+
+.picture-container img:hover {
+    cursor: pointer;
+    filter: opacity(50%);
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.find-more h3 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+#card-a {
+    font-size: 1.5rem;
+    line-height: 3rem;
+    width: 100%;
+}
+
+#card-a:hover {
+    color: orange;
+    font-weight: 800;
+}
+
+/* Contact Section */
+.contact-heading {
+    margin-top: 5rem;
+    text-align: left;
+    width: 100%;
+    background-color: #e4e5e7;
+    margin-bottom: 0px;
+    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+    padding-left: 4rem;
+}
+
+.contact-heading h3 {
+    font-size: 2rem;
+}
+.contact {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #e4e5e7;
+    margin-top: 0;
+    padding-bottom: 4rem;
+}
+
+/* Form */
+#form-id {
+    display: block;
+    margin-left: 5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: left;
+    padding: 30px;
+    width: 100%;
+    
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.input {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.fcf-form-control {
+    display: block;
+    width: 50%;
+    padding: 0.375rem 0.75rem;
+    line-height: 1.5;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.label {
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+}
+
+/* Map */
+#map {
+    float: right;
+    margin-right: 5rem;
+    width: 130%;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.2rem;
+    padding-bottom: 3.5rem;
+    margin: auto 0;
+}
+.footer-col {
+    margin-top: 2rem;
+}
+
+.footer-col h4 {
+    text-align: center;
+}
+
+.footer-col a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+/* Sign Up Section */
+.sign-up {
+    display: flex;
+    margin-top: 4rem;
+}
+
+.sign-up form {
+    text-align: center;
+}
+
+.sign-up input {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.sign-up button {
+    background-color: orange;
+    border: rgb(0, 0, 0) solid 1px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 7px 20px;
+}
+
+
+
