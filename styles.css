@@ -103,6 +103,33 @@ button:hover {
     }
 }
 
+@media (max-width: 798px) {
+    #logo-title {
+        display: none;
+    }
+
+    button {
+        font-size: 1.2rem;
+        padding: 8px 18px;
+    }
+
+    .nav-bar a {
+        font-size: 1.2rem;
+        margin-right: 1rem;
+        padding: 0rem;
+    }
+}
+
+@media (max-width: 697px) {
+    #logo-title {
+        display: none;
+    }
+
+    button {
+        display: none;
+    }
+}
+
 /* Landing Page */
 .img-title {
     display: flex;
@@ -287,6 +314,18 @@ span {
     background-color: #e4e5e7;
     margin-top: 0;
     padding-bottom: 4rem;
+}
+
+@media (max-width: 818px) {
+    .contact-heading h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 633px) {
+    .contact-heading h3 {
+        font-size: 1.2rem;
+    }
 }
 
 /* Form */
