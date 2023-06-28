@@ -115,12 +115,13 @@ button:hover {
     .nav-bar {
         position: fixed;
         left: -100%;
-        top: 70px;
+        top: 127px;
         gap: 0;
         background: white;
         width: 100%;
         text-align: center;
         transition: 0.5s;
+        border: black 2px solid;
     }
 
     .nav-bar a {
